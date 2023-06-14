@@ -103,3 +103,9 @@ cursor: pointer;
 .dropdown-item:hover{
     color: #3A63DF;
 }
+
+/* rotate and hide icons  */
+.show-dropdown .dropdown-close{
+    opacity: 1;
+    transform: rotate(-180deg);
+}
