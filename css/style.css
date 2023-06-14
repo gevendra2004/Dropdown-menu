@@ -1,12 +1,6 @@
 /* ---------------------------- Google Fonts ---------------------------- */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
 
-
-/* first color 
-text color 
-container  */
-
-
 * {
     box-sizing: border-box;
     padding: 0;
@@ -108,4 +102,14 @@ cursor: pointer;
 .show-dropdown .dropdown-close{
     opacity: 1;
     transform: rotate(-180deg);
+}
+.show-dropdown .dropdown-arrow{
+    opacity: 0;
+    transform: rotate(-180deg);
+}
+
+.show-dropdown .drop-menu {
+    opacity: 1;
+    transform: scale(1);
+    pointer-events: initial;
 }
