@@ -3,11 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Dropdown Menu - Gevendra</title>
     <link rel="stylesheet" href="./css/style.css">
+
+    <!-- --------------- Remixicon ------------------- -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
 </head>
 <body>
-    
+    <div class="container">
+        <div class="dropdown" id="dropdown-content">
+            <button class="dropdown-button" id="button">
+                <i class="ri-user-heart-line dropdown-icon"></i>
+                <span class="dropdown-name">My Profile</span>
+
+                <div class="dropdown-icon">
+                    <i class="ri-arrow-down-s-line dropdown-arrow"></i>
+                    <i class="ri-close-fill dropdown-close"></i>
+                </div>
+            </button>
+
+            <ul class="drop-menu">
+                <li class="dropdown-item">
+                    <i class="ri-message-3-line dropdown-icon"></i>
+                    <span class="dropdown-name">Messages</span>
+                </li>
+
+                <li class="dropdown-item">
+                    <i class="ri-lock-password-line dropdown-icon"></i>
+                    <span class="dropdown-name">Accounts</span>
+                </li>
+
+                <li class="dropdown-item">
+                    <i class="ri-settings-3-line dropdown-icon"></i>
+                    <span class="dropdown-name">Settings</span>
+                </li>
+            </ul>
+        </div>
+    </div>
     <script src="./js/index.js"></script>
 </body>
 </html>

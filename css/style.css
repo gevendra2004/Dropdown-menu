@@ -1,0 +1,28 @@
+/* ---------------------------- Google Fonts ---------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+
+
+/* first color #3A63DF
+text color 
+container #F2F4FD */
+
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: linear-gradient(180deg, rgb(219,227,250),rgb(119,149,238));
+}
+
+body,button{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    color: #3A63DF ;
+}
+
+ul{
+    list-style: none;
+}
